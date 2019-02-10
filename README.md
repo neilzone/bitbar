@@ -38,6 +38,12 @@ Example showing your internal and external IP addresses:
 
 [Browse our plugins](https://github.com/matryer/bitbar-plugins) to find useful scripts, or [write your own](https://github.com/matryer/bitbar#writing-plugins).
 
+### Decide if you want to show the configuration menu to users
+
+By default, BitBar shows users a configuration menu. If you want to disable this, run the following in a Terminal:
+
+	sudo defaults write /Library/Preferences/com.matryer.BitBar userConfigDisabled -bool true
+
 ### It's free, so please donate
 
 If you love this, any BitCoin donations are most welcome, to `1DGoNEYAnjE5DqK7y5zMPR4PLU5HLKpLNR` or [send something useful (Amazon Wishlist)](http://amzn.to/1Pd9yOt).
